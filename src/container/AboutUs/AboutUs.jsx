@@ -4,7 +4,7 @@ import images from '../../constants/images';
 import './AboutUs.css';
 
 const AboutUs = () => (
-  <div className="app__aboutus app__bg section__padding">
+  <div className="app__aboutus app__bg section__padding" id="about">
     <div className="app__aboutus-overlay">
       <img src={images.G} alt="G" />
     </div>
