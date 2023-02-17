@@ -1,0 +1,21 @@
+button {
+  background: var(--color-golden);
+  padding: 4px 26px;
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  margin: 1rem 0;
+  font-weight: 800;
+  cursor: pointer;
+  border: none;
+}
+
+/* Media Queries  */
+@media screen and (min-width: 2000px) {
+  button {
+    font-size: 32px;
+    padding: 8px 36px;
+  }
+}

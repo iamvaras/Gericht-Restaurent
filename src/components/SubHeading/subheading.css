@@ -1,0 +1,31 @@
+.app__subheading {
+  margin: 0 0 1rem 0;
+}
+
+.app__subheading p {
+  font-family: var(--font-base);
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.app__subheading img {
+  width: 45px;
+  height: 20px;
+}
+
+/* Media Queries  */
+@media screen and (min-width: 2000px) {
+  .app__subheading img {
+    width: 80px;
+    height: 29px;
+  }
+
+  .app__subheading p{
+    font-size: 67px;
+  }
+  
+}
